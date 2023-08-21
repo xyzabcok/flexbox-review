@@ -92,4 +92,26 @@ figure img {
     border-radius: 10px;
 }
 
-.quote-section {}
+.quote-section {
+    background-color: #E5E7Eb;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 22px;
+    width: 50%;
+
+}
+
+.attribution {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: right;
+}
